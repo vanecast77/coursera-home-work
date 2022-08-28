@@ -39,7 +39,6 @@ p {
 	text-align: center;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin-left: 230px;
-	margin-top: 0;
 }
 
 #p2 {
@@ -54,7 +53,6 @@ p {
   padding: 10px;
   text-align: center;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-top: 0;
 }
 
 #p3 {
@@ -63,98 +61,39 @@ p {
 	top: 0;
 	right: 0;
 	font-weight: bold;
-	height: 35px;
+      height: 35px;
 	width: 120px;
 	padding: 10px;
 	text-align: center;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	margin-top: 0;
 }
 
-@media (min-width: 992px) {
-
-{
-    float: left;
-}
-
-  #p {
-  	width: 33,33%
-}
-  #p1 {
-    width: ;
-}
-  #p2 {
-    width: ;
-  }
-  #p3 {
-    width: ;
-  }
-
-@media (min-width: 768px) and (max-width:  991) 
-
-{
-    float: left;
-}
-
-   #p {
-  	width: 50%;
-}
-  #p1 {
-    width: ;
-}
-  #p2 {
-    width: ;
-  }
-  #p3 {
-    width: ;
-  }
-
-@media ((max-width:  767) 
-
-{
-    float: left;
-}
-
-   #p {
-     width: 100%
-}
-  #p1 {
-    width: ;
-}
-  #p2 {
-    width: ;
-  }
-  #p3 {
-    width: ;
-  }
-
- .row {
-	width: 100%;
+.row{
+    display:flex;
 }
 
 </style>
 </head>
 <body>
 
-<h1>Our Menu</h1>
-<div class="row">
- 
-<div class="col-lg-4 col-md-6 col-sm-12" id="container"><p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Deserunt ab quia eum possimus debitis illo consequuntur cum impedit! Non hic ratione minus reiciendis esse laboriosam rem fugit, quam ut iure! </p>
-       <p id="p1">Chicken</p>
+    <h1>Our Menu</h1>
+    <div class="row">
 
-</div>
+        <div id="container"><p>Lorem ipsum dolor, sit amet consectetur, adipisicing elit. Deserunt ab quia eum possimus debitis illo consequuntur cum impedit! Non hic ratione minus reiciendis esse laboriosam rem fugit, quam ut iure! </p>
+               <p id="p1">Chicken</p>
 
-<div class="col-lg-4 col-md-6 col-sm-12" id="container"><p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Quis, iste, nostrum dignissimos unde officiis doloremque debitis fugit ut! Voluptate odit nam unde harum aliquam aperiam quibusdam quod corrupti provident pariatur!</p>
-   <p id="p2">Beef</p>
+        </div>
 
- </div>
+        <div id="container"><p>Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Quis, iste, nostrum dignissimos unde officiis doloremque debitis fugit ut! Voluptate odit nam unde harum aliquam aperiam quibusdam quod corrupti provident pariatur!</p>
+           <p id="p2">Beef</p>
 
-<div class="col-lg-4 col-md-6 col-sm-12" id="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, earum omnis natus voluptate, repudiandae inventore molestias eos reprehenderit corrupti nesciunt animi ea obcaecati vero numquam porro quidem? Numquam at, et! </p>
-       <p id="p3">Sushi</p>
+         </div>
 
- </div>
-    
-     </div>
+        <div id="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, earum omnis natus voluptate, repudiandae inventore molestias eos reprehenderit corrupti nesciunt animi ea obcaecati vero numquam porro quidem? Numquam at, et! </p>
+               <p id="p3">Sushi</p>
 
+         </div>
+
+    </div>
 </body>
 </html>
